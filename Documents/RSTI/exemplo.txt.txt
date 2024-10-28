@@ -1,0 +1,7 @@
+with open('Relatório.txt', 'w') as arquivo:
+            for linha in matriz:
+                linha_str = ''.join(map(str,linha))
+                
+                arquivo.write(linha_str +'\n')
+                arquivo.write(f'A soma dos elementos da matriz é:{soma}')
+                print("Relatório salvo!!!")

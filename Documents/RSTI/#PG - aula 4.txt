@@ -1,0 +1,12 @@
+
+class Caneta():
+    def_init_(self,cor):
+    self.cor = cor
+
+c = Caneta("azul")
+print(caneta.cor)
+
+
+
+
+
